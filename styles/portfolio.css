@@ -22,10 +22,15 @@ h6 {
 }
 h1 {
   font-size: 96px;
-  color: #000000;
+  line-height: 128px;
+}
+h2 {
+  font-size: 64px;
 }
 p {
   font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
 }
 .hero {
   background: var(--primary-color);
@@ -44,15 +49,46 @@ p {
   font-weight: normal;
   font-size: 24px;
   color: var(--secondary-color);
-  line-height: 2;
+  line-height: 36px;
 }
 .btn-brand {
   background: var(--brand-color);
   border-radius: 4px;
   color: #ffffff;
-  font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
   text-decoration: none;
+}
+.btn-yogurt-launch {
+  color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 24px;
+
+  padding: 15px 30px;
+}
+.feature {
+  font-size: 18px;
+  border-radius: 4px;
+}
+.project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  h1 {
+    font-size: 44px;
+    line-height: 150px;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .hero {
+    padding: 80px 20px;
+  }
 }
