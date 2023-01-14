@@ -27,6 +27,10 @@ h1 {
 h2 {
   font-size: 64px;
 }
+
+h4 {
+  font-size: 48px;
+}
 p {
   font-weight: normal;
   font-size: 16px;
@@ -66,14 +70,13 @@ p {
 }
 .content h3 {
   font-size: 24px;
-  line-height: 150px;
+  line-height: 1.5;
   font-family: var(--default-font-family);
 }
 
 .content p {
   font-size: 14px;
   color: var(--secondary-color);
-  margin: 0;
 }
 
 .content {
@@ -130,6 +133,43 @@ nav li.active a {
   color: var(--brand-color);
 }
 
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background: var(--primary-color);
+  border-radius: 20px;
+  padding: 30px 120px;
+}
+footer .contact-box p {
+  margin: 0;
+  font-size: 18px;
+  line-height: 27px;
+}
+footer .email-link {
+  text-decoration: none;
+  font-size: 24px;
+  text-align: center;
+  color: black;
+}
+footer .email-link:hover {
+  color: var(--brand-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--brand-color);
+  background: var(--primary-color);
+  padding-left: 10px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: #ffffff;
+  background: var(--brand-color);
+}
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
@@ -141,6 +181,10 @@ nav li.active a {
   }
   h2 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 26px;
   }
   .hero {
     padding: 80px 20px;
