@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <meta
+      name="description"
+      content="Fatimah is a trained front-end developer based in Tallinn, Estonia."
+    />
+    <title>Front-end developer - Fatimah Oluwole</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -32,19 +36,25 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="./images/logo.png" class="logo d-none d-md-block" alt="" />
+        <a href="./index.html" title="Homepage">
+          <img
+            src="./images/logo.png"
+            class="logo d-none d-md-block"
+            alt="Fatimah Logo"
+          />
+        </a>
         <ul>
           <li class="active">
-            <a href="./index.html">Home</a>
+            <a href="./index.html" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="./about.html">About</a>
+            <a href="./about.html" title="About Fatimah">About</a>
           </li>
           <li>
-            <a href="./work.html">Work</a>
+            <a href="./work.html" title="Fatimah's Work">Work</a>
           </li>
           <li>
-            <a href="./contact.html">Contact</a>
+            <a href="./contact.html" title="Contact Fatimah">Contact</a>
           </li>
         </ul>
       </nav>
@@ -54,14 +64,20 @@
       <h1>Fatimah Oluwole</h1>
       <h2 class="mb-5">Frontend Developer, based in Tallinn, Estonia</h2>
       <div>
-        <a href="#" class="btn btn-brand"> Contact me</a>
+        <a href="./contact.html" class="btn btn-brand" title="Contact me">
+          Contact me</a
+        >
       </div>
     </div>
     <p class="feature text-center m-5">Featured Projects</p>
     <div class="container">
       <div class="row mb-5">
         <div class="col d-none d-lg-block">
-          <img src="./images/yogaproject.png" class="img-fluid" alt="" />
+          <img
+            src="./images/yogaproject.png"
+            class="img-fluid"
+            alt="Yoga project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -104,12 +120,20 @@
           </div>
         </div>
         <div class="col d-none d-lg-block">
-          <img src="./images/weatherapp.png" class="img-fluid" alt="" />
+          <img
+            src="./images/weatherapp.png"
+            class="img-fluid"
+            alt="Weather app preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col d-none d-lg-block">
-          <img src="./images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="./images/dictionary.png"
+            class="img-fluid"
+            alt="Dictionary app preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -120,7 +144,7 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="" class="btn-brand-outline">Launch project</a>
+            <a href="./work.html" class="btn-brand-outline">Launch project</a>
           </div>
         </div>
       </div>
@@ -133,31 +157,49 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-brand mt-3">Contact me</a>
+            <a
+              href="./contact.html"
+              class="btn btn-brand mt-3"
+              title="Contact Fatimah"
+              >Contact me</a
+            >
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:fatimaholuwole@gmail.com" class="email-link"
+          <a
+            href="mailto:fatimaholuwole@gmail.com"
+            class="email-link"
+            title="Email Fatimah"
             >fatimaholuwole@gmail.com</a
           >
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://www.instagram.com/Teemah27.codes" target="_blank"
+          <a
+            href="https://www.instagram.com/Teemah27.codes"
+            target="_blank"
+            title="Instagram Profile"
             ><i class="fa-brands fa-instagram"></i
           ></a>
-          <a href="https://www.facebook.com/Teemah27" target="_blank"
+          <a
+            href="https://www.facebook.com/Teemah27"
+            target="_blank"
+            title="FaceBook Profile"
             ><i class="fa-brands fa-facebook"></i
           ></a>
-          <a href="https://www.github.com/Teemah27" target="_blank"
+          <a
+            href="https://www.github.com/Teemah27"
+            target="_blank"
+            title="GitHub Profile"
             ><i class="fa-brands fa-github"></i
           ></a>
         </div>
       </footer>
-      <small>
+      <p class="text-center mt-5">
         <a href="https://github.com/Teemah27/Portfolio" target="_blank"
-          >Open-source code </a
-        >by Fatimah
-      </small>
+          >Open-source code</a
+        >
+        by Fatimah✌️
+      </p>
     </div>
   </body>
 </html>
