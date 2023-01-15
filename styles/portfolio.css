@@ -33,8 +33,8 @@ h4 {
 }
 p {
   font-weight: normal;
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 18px;
+  line-height: 27px;
 }
 .hero {
   background: var(--primary-color);
@@ -91,13 +91,14 @@ p {
   padding: 15px 30px;
   text-decoration: none;
 }
-.btn-yogurt-launch {
+.btn-brand-outline {
   color: var(--brand-color);
   border: 1px solid var(--brand-color);
   border-radius: 4px;
   font-size: 16px;
   line-height: 24px;
   padding: 15px 30px;
+  text-decoration: none;
 }
 .feature {
   font-size: 18px;
@@ -143,8 +144,6 @@ footer .contact-box {
 }
 footer .contact-box p {
   margin: 0;
-  font-size: 18px;
-  line-height: 27px;
 }
 footer .email-link {
   text-decoration: none;
@@ -160,7 +159,7 @@ footer .social-links a {
   margin: 0 20px;
   color: var(--brand-color);
   background: var(--primary-color);
-  padding-left: 10px 14px;
+  padding: 10px 14px;
   font-size: 18px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
@@ -170,6 +169,7 @@ footer .social-links a:hover {
   color: #ffffff;
   background: var(--brand-color);
 }
+
 @media (max-width: 900px) {
   .project-description {
     padding: 0;
